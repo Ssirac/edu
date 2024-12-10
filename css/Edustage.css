@@ -1,0 +1,716 @@
+#head {
+    background: url(../img/edufon.webp)center/cover;
+    height: 100vh;
+}
+
+.container {
+    margin: 0 10%;
+}
+
+.nav_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.pages {
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+}
+
+.pages .fa-search {
+    margin-left: 30px;
+}
+
+.pages a,
+i {
+    font: bold 16px "Roboto", sans-serif;
+    color: #002347;
+    transition: 0.3s;
+    padding-bottom: 15px;
+}
+
+.pages a:hover,
+.pages i:hover {
+    color: #fdc632;
+}
+
+/*HEADER CONTENT*/
+.header_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.header_content h2 {
+    font: 550 19px "Roboto", sans-serif;
+    color: #002347;
+    text-transform: uppercase;
+}
+
+.header_content h1 {
+    font: 550 48px "Roboto", sans-serif;
+    color: #002347;
+    text-transform: uppercase;
+    margin: 30px 0 50px 0;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+}
+
+.btns .yellow,
+.btns .blue {
+    font: bold 14px "Roboto", sans-serif;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    padding: 20px 50px;
+}
+
+.btns .blue {
+    margin-right: 10px;
+    color: #fdc632;
+    background-color: #002347;
+}
+
+.btns .yellow {
+    margin-left: 10px;
+    color: #002347;
+    background-color: #fdc632;
+}
+
+.blue:hover {
+    color: #002347;
+    border: 1px solid #002347;
+    /*hover edende 1px boyuyur*/
+    background-color: transparent;
+}
+
+.yellow:hover {
+    color: #fdc632;
+    background-color: #002347;
+}
+
+
+/*FEATURE SECTION*/
+#feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+#feature h1 {
+    font: bold 40px "rubik", sans-serif;
+    color: #002347;
+    text-transform: capitalize;
+    margin: 20px;
+}
+
+#feature>p {
+    font: italic 20px "Roboto", sans-serif;
+    color: #8d8986;
+    width: 500px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.feature_cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.feature_cards .card1,
+.feature_cards .card2,
+.feature_cards .card3 {
+    background-color: #f9f9ff;
+    width: 280px;
+    height: 150px;
+    padding: 30px;
+    transition: 0.3s;
+}
+
+.feature_cards i {
+    font-size: 40px;
+    color: #002347;
+}
+
+.feature_cards h3 {
+    font: bold 24px "Roboto", sans-serif;
+    color: #002347;
+    font-weight: 16px;
+    margin: 10px 0;
+}
+
+.feature_cards p {
+    font: 16px "Roboto", sans-serif;
+    color: #8d8986;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+}
+
+.feature_cards .card1:hover,
+.feature_cards .card2:hover,
+.feature_cards .card3:hover {
+    box-shadow: 0px 0px 30px rgba(153, 153, 153, 0.432);
+
+}
+
+/*3 SECTION*/
+.section3-bg-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: white;
+    padding: 0 0 100px 0;
+}
+
+
+.section3-bg-div .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+.section3-title-div h2 {
+    text-align: center;
+    color: #002347;
+    font: normal 850 36px arial;
+}
+
+.section3-title-div h3 {
+    text-align: center;
+    color: rgb(111, 111, 111);
+    font: italic 540 16px;
+    padding-top: 10px;
+}
+
+.course-info-content-div {
+    padding: 10px;
+}
+
+.course-info-img-div {
+    max-height: 283px;
+    max-width: 347px;
+}
+
+.course-info-img-div img {
+    object-fit: cover;
+}
+
+
+.courses-info-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.course-info-div {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 10px 10px;
+}
+
+.course-info-div:hover .course-info-img-div img {
+    scale: 1.2;
+}
+
+.course-info-div:hover {
+    box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.336);
+}
+
+.course-info-img-div {
+    overflow: hidden;
+}
+
+.course-info-img-div img {
+    transition: 0.5s;
+}
+
+
+
+.section3-title-div {
+    text-align: center;
+}
+
+.course-info-content-div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.course-info-content-div .design-p {
+    font: 13px sans-serif;
+    padding: 8px 20px;
+    color: #fff;
+    background: #002347;
+    text-transform: uppercase;
+    max-width: fit-content;
+}
+
+.course-info-content-div h5 {
+    font: 550 20px sans-serif;
+    color: #002347;
+    text-transform: capitalize;
+    max-width: fit-content;
+}
+
+.course-info-content-div h6 {
+    font: 16px sans-serif;
+    color: #7b838a;
+    max-width: 90%;
+    line-height: 27px;
+}
+
+.author-img-div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.statistics {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 320px;
+}
+
+.like-and-follower-stat-div {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.like-and-follower-stat-div div {
+    display: flex;
+    align-items: center;
+    gap: 8px
+}
+
+.statistics,
+.statistics p,
+.statistics h2 {
+    color: #002347;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+
+
+
+
+/*REGISTRATION SECTION*/
+.reg_bg {
+    background-color: #002347;
+    padding: 50px 0;
+}
+
+#registration {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reg_info {
+    width: 55%;
+}
+
+.reg_basliq h1 {
+    font: 500 42px "Roboto", sans-serif;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.reg_basliq p {
+    font: 16px "Roboto", sans-serif;
+    color: #fff;
+    line-height: 30px;
+    width: 600px;
+    margin-top: 25px;
+}
+
+.values {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 50px 0;
+}
+
+.value1,
+.value2,
+.value3,
+.value4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    background-color: #334f6c;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+}
+
+.values p {
+    font: 700 36px "Roboto", sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.values span {
+    font: 550 16px "Roboto", sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.reg_form {
+    background-color: #fff;
+    width: 250px;
+    max-height: 300px;
+    padding: 40px;
+    text-align: center;
+}
+
+.reg_form h3 {
+    font: 600 24px "Roboto", sans-serif;
+    color: #002347;
+    text-align: center;
+}
+
+.reg_form p {
+    font: 400 16px "Roboto", sans-serif;
+    color: #7b838a;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    margin-bottom: 20px;
+}
+
+.name {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+}
+
+.tel {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+}
+
+.email {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+}
+
+::placeholder {
+    font: 600 16px "Roboto", sans-serif;
+    color: #b7aeac;
+    padding: 15px;
+}
+
+.submit {
+    font: 600 14px "Roboto", sans-serif;
+    text-transform: uppercase;
+    background-color: #fdc632;
+    color: black;
+    width: 100%;
+    border: none;
+    margin-top: 30px;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.submit:hover {
+    color: #fdc632;
+    background-color: #002347;
+}
+
+/*EXPERT TRAINERS*/
+#trainers {
+    height: 90vh;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.our_expert {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.our_expert,
+h2 {
+    font: bold 40px "Roboto", sans-serif;
+    color: #002347;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.our_expert,
+p {
+    font: italic 18px "Roboto", sans-serif;
+    color: #8d8986;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.exp_cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.exp_cards .card1,
+.exp_cards .card2,
+.exp_cards .card3,
+.exp_cards .card4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.3s;
+}
+
+.exp_cards .card1:hover,
+.exp_cards .card2:hover,
+.exp_cards .card3:hover,
+.exp_cards .card4:hover {
+    box-shadow: rgb(100, 100, 111) 0px 7px 29px 0px;
+}
+
+.exp_cards .t_img img,
+.expert_info {
+    width: 250px;
+}
+
+.exp_cards h3 {
+    font: bold 20px "Roboto", sans-serif;
+    color: #002347;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.exp_cards .position {
+    font: 500 16px "Roboto", sans-serif;
+    color: #8d8986;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.exp_cards .text {
+    font: 500 16px "Roboto", sans-serif;
+    color: #8d8986;
+    line-height: 25px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    margin: 20px;
+}
+
+.link_icon i {
+    color: #cccccc;
+    font-size: 18px;
+    margin: 10px;
+}
+
+#trainers i:hover {
+    color: #FDC632;
+    cursor: pointer;
+    scale: 1.5;
+}
+
+.link_icon {
+    text-align: center;
+}
+
+
+/*  */
+.section6-bg-div {
+    background: #ffffff;
+    height: 100vh;
+}
+
+.section6-bg-div .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 150px;
+}
+
+.section6-cards-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section6-card-div {
+    display: flex;
+    gap: 35px;
+    padding: 40px;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+.section6-card-div:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: default;
+}
+
+.section6-card-img-div img {
+    object-fit: cover;
+    height: 121.66px;
+    width: 121.66px;
+    border-radius: 5px;
+}
+
+.section6-card-content-div {
+    max-width: 270px;
+}
+
+.section6-card-content-div h2 {
+    font: 500 20px "Rubik";
+    color: #002347;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+
+.section6-card-content-div h3 {
+    font: 400 16px "Roboto";
+    color: #7b838a;
+    line-height: 25px;
+}
+
+/*FOOTER PART*/
+footer {
+    height: 100vh;
+    background: #002347;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container {
+    position: relative;
+    height: 80%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+footer h5 {
+    font: 500 18px "Rubik";
+    margin-bottom: 35px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+footer a,
+footer p {
+    transition: .3s;
+    color: #7b838a;
+    font: 400 16px "Roboto";
+    line-height: 40px;
+    text-transform: capitalize;
+}
+
+footer a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+footer input {
+    padding: 11px 22px;
+    width: 17vw;
+    background-color: #334f6c;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+}
+
+footer button {
+    position: relative;
+    left: -50px;
+    font: 500 12px "Rubik";
+    padding: 8px 18px;
+    color: #002347;
+    border: 1px solid #FDC632;
+    background-color: #FDC632;
+    text-transform: uppercase;
+    margin-top: 19px;
+}
+
+footer button:hover {
+    cursor: pointer;
+}
+
+.footer-inputAndbutton-div {
+    display: flex;
+    align-items: center;
+}
+
+::placeholder {
+    text-transform: capitalize;
+}
+
+.footer-icons-div {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+footer h6 {
+    position: absolute;
+    left: 0;
+    bottom: 25px;
+    font: 400 16px "Roboto";
+    color: #fff;
+}
+
+footer h6 a {
+    color: #FDC632;
+}
+
+
+footer h6 a {
+    color: #FDC632;
+}
+
+
+.footer-icons-div i {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.footer-icons-div a {
+    padding: 12px;
+    background-color: #334f6c;
+    text-align: center;
+}
